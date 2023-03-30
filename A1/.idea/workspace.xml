@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7f674778-79c2-4ae2-8d62-9646f31915b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/A1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/car/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab-5x-911-Badea-Dan-Nicolai" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Django Server.A1">
@@ -158,6 +160,7 @@
       <workItem from="1679836433943" duration="226000" />
       <workItem from="1679913582580" duration="6393000" />
       <workItem from="1680152743590" duration="315000" />
+      <workItem from="1680153241982" duration="2289000" />
     </task>
     <servers />
   </component>

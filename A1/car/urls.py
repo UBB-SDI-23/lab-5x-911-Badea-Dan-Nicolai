@@ -3,6 +3,8 @@ from .views import CarList, CarDetail, HumanList, HumanDetail, CompetitionList, 
     CanCompeteList, CarsByAvgCompetitionPrize, HumansByAvgNoOfCars, CompetitionCancompeteCreateView, \
     CarCancompeteCreateView
 
+from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, SpectacularSwaggerView
+
 urlpatterns = [
     path('car/', CarList.as_view()),
     path('car/<int:pk>/', CarDetail.as_view()),
@@ -15,5 +17,9 @@ urlpatterns = [
     path('cancompete/by-avg-competition-prize/', CarsByAvgCompetitionPrize.as_view()),
     path('human/by-avg-consumption/', HumansByAvgNoOfCars.as_view()),
     path('car/<int:car_id>/competition/', CompetitionCancompeteCreateView.as_view()),
-    path('competition/<int:competition_id>/car/', CarCancompeteCreateView.as_view())
+    path('competition/<int:competition_id>/car/', CarCancompeteCreateView.as_view()),
+    path('schema/', SpectacularAPIView.as_view(), name='schema'),
+    # Optional UI:
+    path('schema/swagger-ui/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+    path('schema/redoc/', SpectacularRedocView.as_view(url_name='schema'), name='redoc'),
 ]

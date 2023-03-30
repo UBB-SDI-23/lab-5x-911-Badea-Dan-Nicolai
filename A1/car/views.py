@@ -1,10 +1,12 @@
 import django_filters.rest_framework
+from django.template.defaulttags import url
 from rest_framework import generics
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import SearchFilter
 from django.db.models import Avg
 from django.db.models import Count
 from rest_framework.response import Response
+from rest_framework_swagger.views import get_swagger_view
 
 from .models import Car
 from .serializers import CarSerializer, OneCarSerializer
@@ -164,3 +166,4 @@ class CarCancompeteCreateView(generics.CreateAPIView):
             'car': car,
             'cancompete': cancompete.id
         })
+
