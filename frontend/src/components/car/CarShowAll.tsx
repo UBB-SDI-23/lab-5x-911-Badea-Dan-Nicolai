@@ -17,11 +17,11 @@ export const CarShowAll = () => {
         <table>
           <tr>
             <th>#</th>
-            <th>Car brand</th>
-            <th>Car make</th>
-            <th>Car consumption</th>
-            <th>Car color</th>
-            <th>Car owner</th>
+            <th>Brand</th>
+            <th>Make</th>
+            <th>Consumption</th>
+            <th>Color</th>
+            <th>Owner</th>
           </tr>
           {cars.map((car: Car, index) => (
             <tr key={index}>
