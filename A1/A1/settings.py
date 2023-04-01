@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'django_filters',
     'django_extensions',
     'drf_spectacular',
-    'drf_spectacular_sidecar'
+    'drf_spectacular_sidecar',
+    'corsheaders'
 ]
 
 SPECTACULAR_SETTINGS = {
