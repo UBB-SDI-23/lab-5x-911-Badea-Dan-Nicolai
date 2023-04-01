@@ -6,7 +6,7 @@ export const CarShowAll = () => {
     const [cars, setCars] = useState([])
   
     useEffect(() => {
-    fetch('http://127.0.0.1:8000/car/car/')
+    fetch('http://ec2-13-53-171-7.eu-north-1.compute.amazonaws.com/car/car/')
       .then(res => res.json())
       .then(data => setCars(data))
     }, []);
